@@ -3,8 +3,5 @@
 		"api/*.py": {
 			"runtime": "@vercel/python@1.2.3"
 		}
-	},
-	"redirects": [
-		{ "source": "/", "destination": "api/main.py" }
-	]
+	}
 }
