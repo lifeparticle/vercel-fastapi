@@ -3,5 +3,9 @@
 		"api/*.py": {
 			"runtime": "@vercel/python@1.2.3"
 		}
-	}
+	},
+    "routes": [
+        { "src": "/api", "dest": "index.py" },
+        { "src": "/api/docs", "dest": "index.py" },
+    ]
 }
