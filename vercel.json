@@ -1,0 +1,6 @@
+{
+  "functions": {"api/main.py"},
+  "redirects": [
+    { "source": "/*", "destination": "api/main.py" },
+  ]
+}
